@@ -118,16 +118,6 @@ The Group Policy strategy has been fully implemented and verified. All security 
 
 ---
 
-### D. Server Security Baseline & LDAP Hardening - Windows Defender with Advanced Security
-As a critical hardening measure, we have configured **Windows Defender Firewall** via GPO to protect core services.
-
-* **Configured Rules:** Specific Inbound/Outbound rules for **LDAP**, Domain Controller communication, and DNS resolution.
-* **Objective:** Prevent unauthorized lateral movement and ensure only encrypted directory traffic is allowed.
-* **Status:** **Applied** * **Settings:**
-    * **LDAP Signing:** Enforced to secure directory traffic.
-    * NTLMv2 enforcement and anonymous SID enumeration disabled.
-    * Audit policies enabled for object access.
-
 **Proof of Firewall Configuration (LDAP & Domain Rules):** ![Firewall Configuration](../images/firewall.png)
 
 ---
