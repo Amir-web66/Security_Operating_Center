@@ -1,7 +1,17 @@
 # Securinets ENIT: SOC & Enterprise Infrastructure
 
 This project documents the deployment of a secure enterprise network. It focuses on network segmentation using **OPNsense** and identity management via **Active Directory**.
+# Securinets ENIT: SOC & Enterprise Infrastructure
 
+##  Project Team
+* **Mouhamed Oussema Chelly** – Team Leader  
+* **Amir Khammar**  
+* **Rayen Mabsout**  
+* **Karim Dami**  
+* **Montaha Jmai**  
+* **Mariem Idoudi**
+
+* 
 ##  Project Overview
 * **Domain:** `securinetsenit.local`
 * **Firewall:** OPNsense (NAT/DHCP)
@@ -37,4 +47,11 @@ All technical proofs and screenshots are located in the `/images` folder.
 ![AD Structure](images/3bf14c0f-ebab-45fd-9437-54e40439f1bc.jpg)
 
 ---
+## 📄 Full Documentation
+Detailed technical validation and screenshots for each phase are available in:  
+`/doc/report.md`
+
+---
+
+
 *Created by the Securinets ENIT Project Team.*
